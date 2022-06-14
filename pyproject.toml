@@ -11,6 +11,7 @@ django-ninja = "0.16.1"
 black = "22.3.0"
 django-stubs = "1.9.0"
 mypy = "0.931"
+isort = "5.10.1"
 
 [tool.poetry.dev-dependencies]
 
@@ -38,3 +39,6 @@ ignore_errors = true # manage.py file is not checked for errors
 
 [tool.django-stubs]
 django_settings_module = "djangoPoetry.settings" # set django_setting_module path
+
+[toll.isort]
+profile = "black" # notify isort that it is using with black
